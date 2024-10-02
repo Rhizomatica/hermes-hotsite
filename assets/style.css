@@ -1,25 +1,23 @@
-@clr: #f60;
-@backgroundcolor: #c5c5c5;
+/* @clr: #f60;
+@backgroundcolor: #c5c5c5; */
 
 /* @desktop: ~"only screen and (min-width: 992px)"; */
 
-/* @font-face {
-  font-family: "Rubik";
-  src: url("./fonts/Rubik-Light.woff2") format("woff"),
+@font-face {
+  font-family: "BricolageGrotesque";
+  src: url("./fonts/woff2/BricolageGrotesque12ptCondensed-Regular.woff2") format("WOFF2"),
 }
 
 @font-face {
-  font-family: "Rubik-regular";
-  src: url("./fonts/Rubik-Regular.woff2") format("woff"),
-} */
+  font-family: "Fira";
+  src: url("./fonts/woff2/FiraMono-Regular.woff2") format("WOFF2"),
+}
 
 
 
 html,
 body {
-  /* font-family: 'Rubik', sans-serif; */
   height: 575vh;
-
 
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -33,6 +31,19 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: scroll;
+}
+
+.title{
+  font-family: 'BricolageGrotesque';
+  font-size: 2.8em;
+  font-weight: bold;
+}
+
+.body {
+  font-family: 'Fira';
+  font-size: 1.5em;
+  line-height: 1.4em;
+  flex-direction: row;
 }
 
 .logo {
@@ -55,17 +66,8 @@ body {
   height: 11%;
   /* border: solid rebeccapurple 20px; */
 
-  .title {
-    font-size: 1.8em;
-    font-weight: bold;
-  }
-
   .body {
-    font-size: 1.5em;
-    flex-direction: row;
     width: 40%;
-    line-height: 1.4em;
-
   }
 }
 
@@ -73,21 +75,12 @@ body {
 
   display: flex;
   flex-direction: column;
-  padding: 7% 1% 1% 5%;
+  padding: 8% 1% 1% 5%;
   height: 11%;
   /* border: solid rebeccapurple 20px; */
 
-  .title {
-    font-size: 1.8em;
-    font-weight: bold;
-  }
-
   .body {
-    font-size: 1.5em;
-    flex-direction: row;
     width: 40%;
-    line-height: 1.4em;
-
   }
 }
 
@@ -98,17 +91,8 @@ body {
   height: 6%;
   /* border: solid rebeccapurple 20px; */
 
-  .title {
-    font-size: 1.8em;
-    font-weight: bold;
-  }
-
   .body {
-    font-size: 1.5em;
-    flex-direction: row;
     width: 40%;
-    line-height: 1.4em;
-
   }
 }
 
@@ -121,18 +105,12 @@ body {
   /* border: solid rebeccapurple 20px; */
 
   .title {
-    font-size: 1.8em;
-    font-weight: bold;
     text-align: right;
   }
 
   .body {
-    font-size: 1.5em;
-    flex-direction: row;
     width: 45%;
     text-align: right;
-    line-height: 1.4em;
-
   }
 }
 
@@ -144,17 +122,8 @@ body {
   height: 6%;
   /* border: solid rebeccapurple 20px; */
 
-  .title {
-    font-size: 1.8em;
-    font-weight: bold;
-  }
-
   .body {
-    font-size: 1.5em;
-    flex-direction: row;
     width: 50%;
-    line-height: 1.4em;
-
   }
 }
 
@@ -165,16 +134,8 @@ body {
   height: 9%;
   /* border: solid rebeccapurple 20px; */
 
-  .title {
-    font-size: 1.8em;
-    font-weight: bold;
-  }
-
   .body {
-    font-size: 1.5em;
-    flex-direction: row;
     width: 50%;
-    line-height: 1.4em;
   }
 }
 
@@ -186,16 +147,11 @@ body {
   /* border: solid rebeccapurple 20px; */
 
   .title {
-    font-size: 1.8em;
-    font-weight: bold;
     text-align: center;
   }
 
   .body {
-    font-size: 1.5em;
-    flex-direction: row;
     width: 30%;
-    line-height: 1.4em;
     text-align: center;
     margin: auto;
   }
