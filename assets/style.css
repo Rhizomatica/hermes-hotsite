@@ -158,28 +158,13 @@ body {
 }
 
 
-/* @media only screen and (min-width: 1800px) {
-  .logo a img {
-    width: 600px;
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  body{
+    height: 255vh;
   }
-}
-
-@media only screen and (min-width: 1300px) and (max-width: 1790px) {
-  .title {
-    font-size: 2.0em;
-  }
-
-  .body {
-    font-size: 1.2em;
-  }
-}
- */
-
-
-
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
   /* Styles */
   .logo a img {
@@ -194,46 +179,50 @@ body {
     font-size: 0.9em;
     line-height: 1em;
   }
+/* 
+  .why {
+    height: 10%;
+  }
 
-  .why{
+  .how {
+    height: 5%;
+  }
+
+  .secure {
+    height: 2.5%;
+  }
+
+  .monitoring {
+    height: 5%;
+  }
+
+  .opensource {
     height: 3%;
   }
 
-  .how{
-    height: 3%;
+  .software {
+    height: 4%;
   }
 
-  .secure{
-
-  }
-
-  .monitoring{
-
-  }
-
-  .opensource{
-
-  }
-
-  .software{
-
-  }
-
-  .contact{
-
-  }
+  .contact {
+    height: 5%;
+  } */
 }
 
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1200px) {
 
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
+  body{
+    height: 330vh;
+  }
+
   /* Styles */
   .logo a img {
     width: 300px;
   }
 
   .title {
-    font-size: 1.4em;
+    font-size: 1.6em;
   }
 
   .body {
@@ -241,245 +230,96 @@ body {
     line-height: 1em;
   }
 
-  .why{
-    height: 3%;
+  .why {
+    height: 11%;
   }
 
-  .how{
-    height: 3%;
+  .how {
+    height: 11%;
   }
 
-  .secure{
-
+  .secure {
+    height: 6%;
   }
 
-  .monitoring{
-
+  .monitoring {
+    height: 12%;
   }
 
-  .opensource{
-
+  .opensource {
+    height: 6%;
   }
 
-  .software{
-
+  .software {
+    height: 10%;
   }
 
-  .contact{
-    
+  .contact {
+    height: 10%;
   }
 }
 
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
+/* Large Devices ----------- */
+@media only screen and (min-width : 1200px) and (max-width: 1800px) {
+
+  body{
+    height: 575vh;
+  }
+
   /* Styles */
   .logo a img {
-    width: 300px;
+    width: 400px;
   }
 
   .title {
-    font-size: 1.4em;
+    font-size: 1.9em;
   }
 
   .body {
-    font-size: 0.9em;
-    line-height: 1em;
+    font-size: 1.1em;
+    line-height: 1.2em;
   }
 
   .why{
-    height: 3%;
+    height: 12%;
   }
 
   .how{
-    height: 3%;
+    height: 11%;
   }
 
-  .secure{
-
+  .secure {
+    height: 6%;
   }
 
-  .monitoring{
-
-  }
-
-  .opensource{
+  .monitoring {
+    height: 11%;
 
   }
 
-  .software{
-
+  .opensource {
+    height: 6%;
   }
 
-  .contact{
-    
+  .software {
+    height: 10%;
+  }
+
+  .contact {
+    height: 11%;
   }
 }
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Extra Large devices (large desktops, 1800px and up) */
+@media (min-width: 1800px) {
+
+  body{
+    height: 595vh;
+  }
+
   /* Styles */
   .logo a img {
-    width: 300px;
-  }
-
-  .title {
-    font-size: 1.4em;
-  }
-
-  .body {
-    font-size: 0.9em;
-    line-height: 1em;
-  }
-
-  .why{
-    height: 3%;
-  }
-
-  .how{
-    height: 3%;
-  }
-
-  .secure{
-
-  }
-
-  .monitoring{
-
-  }
-
-  .opensource{
-
-  }
-
-  .software{
-
-  }
-
-  .contact{
-    
-  }
-}
-
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-  /* Styles */
-  .logo a img {
-    width: 300px;
-  }
-
-  .title {
-    font-size: 1.4em;
-  }
-
-  .body {
-    font-size: 0.9em;
-    line-height: 1em;
-  }
-
-  .why{
-    height: 3%;
-  }
-
-  .how{
-    height: 3%;
-  }
-
-  .secure{
-
-  }
-
-  .monitoring{
-
-  }
-
-  .opensource{
-
-  }
-
-  .software{
-
-  }
-
-  .contact{
-    
-  }
-}
-
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-  /* Styles */
-  .logo a img {
-    width: 300px;
-  }
-
-  .title {
-    font-size: 1.4em;
-  }
-
-  .body {
-    font-size: 0.9em;
-    line-height: 1em;
-  }
-
-  .why{
-    height: 3%;
-  }
-
-  .how{
-    height: 3%;
-  }
-
-  .secure{
-
-  }
-
-  .monitoring{
-
-  }
-
-  .opensource{
-
-  }
-
-  .software{
-
-  }
-
-  .contact{
-    
-  }
-}
-
-/* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) {
-    /* Styles */
-    .logo a img {
-      width: 400px;
-    }
-  
-    .title {
-      font-size: 2em;
-    }
-  
-    .body {
-      font-size: 1.2em;
-      line-height: 1.2em;
-    }
-  
-    .why{
-      height: 11.5%;
-    }
-  
-    .how{
-      height: 11%;
-    }
-}
-
-/* Large screens ----------- */
-@media only screen and (min-width : 1824px) {
-  /* Styles */
-  .logo a img {
-    width: 600px;
+    width: 550px;
   }
 
   .title {
@@ -491,173 +331,32 @@ body {
     line-height: 1.5;
   }
 
-  .why{
-    height: 10.5%;
-  }
-
-  .how{
+  .why {
     height: 11%;
   }
 
-  /* .secure{
+  .how {
+    height: 11%;
+  }
+
+  .secure {
+    height: 6%;
+  }
+
+  .monitoring {
+    height: 11%;
 
   }
 
-  .monitoring{
-
+  .opensource {
+    height: 6%;
   }
 
-  .opensource{
-
+  .software {
+    height: 8%;
   }
 
-  .software{
-
-  }
-
-  .contact{
-    
-  } */
-}
-
-/* iPhone 4 - 5s ----------- */
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-  /* Styles */
-  .logo a img {
-    width: 300px;
-  }
-
-  .title {
-    font-size: 1.4em;
-  }
-
-  .body {
-    font-size: 0.9em;
-    line-height: 1em;
-  }
-
-  .why{
-    height: 3%;
-  }
-
-  .how{
-    height: 3%;
-  }
-
-  .secure{
-
-  }
-
-  .monitoring{
-
-  }
-
-  .opensource{
-
-  }
-
-  .software{
-
-  }
-
-  .contact{
-    
-  }
-}
-
-/* iPhone 6 ----------- */
-@media only screen and (max-device-width: 667px) only screen and (-webkit-device-pixel-ratio: 2) {
-  /* Styles */
-  .logo a img {
-    width: 300px;
-  }
-
-  .title {
-    font-size: 1.4em;
-  }
-
-  .body {
-    font-size: 0.9em;
-    line-height: 1em;
-  }
-
-  .why{
-    height: 3%;
-  }
-
-  .how{
-    height: 3%;
-  }
-
-  .secure{
-
-  }
-
-  .monitoring{
-
-  }
-
-  .opensource{
-
-  }
-
-  .software{
-
-  }
-
-  .contact{
-    
-  }
-}
-
-/* iPhone 6+ ----------- */
-@media only screen and (min-device-width : 414px) only screen and (-webkit-device-pixel-ratio: 3) {
-  /*** You've spent way too much on a phone ***/
-}
-
-/* Samsung Galaxy S7 Edge ----------- */
-@media only screen and (-webkit-min-device-pixel-ratio: 3),
-and (min-resolution: 192dpi)and (max-width:640px) {
-  /* Styles */
-  .logo a img {
-    width: 300px;
-  }
-
-  .title {
-    font-size: 1.4em;
-  }
-
-  .body {
-    font-size: 0.9em;
-    line-height: 1em;
-  }
-
-  .why{
-    height: 3%;
-  }
-
-  .how{
-    height: 3%;
-  }
-
-  .secure{
-
-  }
-
-  .monitoring{
-
-  }
-
-  .opensource{
-
-  }
-
-  .software{
-
-  }
-
-  .contact{
-    
+  .contact {
+    height: 11%;
   }
 }
