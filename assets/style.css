@@ -27,7 +27,7 @@ body {
   user-select: none;
 
   background-color: #FFF;
-  background-image: url("/assets/images/ilustracion_sitiohermes.png");
+  background-image: url("../assets/images/ilustracion_sitiohermes.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: scroll;
