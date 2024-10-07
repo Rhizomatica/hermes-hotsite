@@ -60,7 +60,7 @@ body {
 
   display: flex;
   flex-direction: column;
-  padding: 7% 1% 1% 5%;
+  padding: 7% 0% 0% 5%;
   height: 11%;
   /* border: solid rebeccapurple 20px; */
 
@@ -72,7 +72,7 @@ body {
 .how {
   display: flex;
   flex-direction: column;
-  padding: 8% 1% 1% 5%;
+  padding: 7% 0% 0% 5%;
   height: 11%;
   /* border: solid rebeccapurple 20px; */
 
@@ -84,7 +84,7 @@ body {
 .secure {
   display: flex;
   flex-direction: column;
-  padding: 9% 1% 1% 5%;
+  padding: 7% 0% 0% 5%;
   height: 6%;
   /* border: solid rebeccapurple 20px; */
 
@@ -96,7 +96,7 @@ body {
 .monitoring {
   display: flex;
   flex-direction: column;
-  padding: 10% 5% 1% 1%;
+  padding: 7% 5% 0% 0%;
   height: 11%;
   align-items: end;
   /* border: solid rebeccapurple 20px; */
@@ -114,7 +114,7 @@ body {
 .opensource {
   display: flex;
   flex-direction: column;
-  padding: 5% 1% 1% 5%;
+  padding: 7% 0% 0% 5%;
   height: 6%;
   /* border: solid rebeccapurple 20px; */
 
@@ -126,7 +126,7 @@ body {
 .software {
   display: flex;
   flex-direction: column;
-  padding: 5% 1% 1% 5%;
+  padding: 7% 0% 0% 5%;
   height: 9%;
   /* border: solid rebeccapurple 20px; */
 
@@ -138,7 +138,7 @@ body {
 .contact {
   display: flex;
   flex-direction: column;
-  padding: 7% 1% 1% 1%;
+  padding: 7% 0% 0% 5%;
   height: 12%;
   /* border: solid rebeccapurple 20px; */
 
@@ -156,12 +156,13 @@ body {
 /* Extra Small devices (mobile, 320px and up) */
 @media only screen and (min-width:319px) {
 
+  html,
   body {
-    height: 0vh;
+    height: 138vh;
   }
 
   .logo a img {
-    width: 110px;
+    width: 105px;
   }
 
   .title {
@@ -175,37 +176,38 @@ body {
   }
 
   .why {
-    height: 130px;
+    height: 11.5%;
   }
 
   .how {
-    height: 130px;
+    height: 10%;
   }
 
   .secure {
-    height: 60px;
+    height: 7%;
   }
 
   .monitoring {
-    height: 160px;
+    height: 11%;
   }
 
   .opensource {
-    height: 70px;
+    height: 5%;
   }
 
   .software {
-    height: 100px;
+    height: 10%;
   }
 
   .contact {
-    height: 120px;
+    height: 9%;
   }
 }
 
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width:768px) {
 
+  html,
   body {
     height: 255vh;
   }
@@ -227,6 +229,7 @@ body {
 /* Medium devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+  html,
   body {
     height: 330vh;
   }
@@ -276,6 +279,7 @@ body {
 /* Large Devices ----------- */
 @media only screen and (min-width : 1200px) {
 
+  html,
   body {
     height: 575vh;
   }
@@ -325,6 +329,7 @@ body {
 /* Extra Large devices (large desktops, 1800px and up) */
 @media (min-width: 1800px) {
 
+  html,
   body {
     height: 595vh;
   }
