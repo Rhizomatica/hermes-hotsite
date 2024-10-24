@@ -31,6 +31,11 @@ body {
   background-attachment: scroll;
 }
 
+a {
+  text-decoration: none;
+  color: tomato;
+}
+
 .title {
   font-family: 'BricolageGrotesque';
   font-size: 2.8em;
@@ -51,7 +56,7 @@ body {
     margin: 0 auto;
 
     img {
-      width: 400px;
+      width: 420px;
     }
   }
 }
@@ -115,7 +120,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 7% 0% 0% 5%;
-  height: 6%;
+  height: 5%;
   /* border: solid rebeccapurple 20px; */
 
   .body {
@@ -126,8 +131,20 @@ body {
 .software {
   display: flex;
   flex-direction: column;
-  padding: 7% 0% 0% 5%;
-  height: 9%;
+  padding: 8% 0% 0% 5%;
+  height: 5%;
+  /* border: solid rebeccapurple 20px; */
+
+  .body {
+    width: 50%;
+  }
+}
+
+.hardware {
+  display: flex;
+  flex-direction: column;
+  padding: 0% 0% 0% 5%;
+  height: 7%;
   /* border: solid rebeccapurple 20px; */
 
   .body {
@@ -161,12 +178,16 @@ body {
     height: 138vh;
   }
 
+  ul>li {
+    line-height: 1em;
+  }
+
   .logo a img {
     width: 105px;
   }
 
   .title {
-    font-size: 0.6em;
+    font-size: 0.5em;
   }
 
   .body {
@@ -188,15 +209,19 @@ body {
   }
 
   .monitoring {
-    height: 11%;
+    height: 8%;
   }
 
   .opensource {
-    height: 5%;
+    height: 4%;
+  }
+
+  .hardware {
+    height: 4.5%;
   }
 
   .software {
-    height: 10%;
+    height: 6%;
   }
 
   .contact {
@@ -267,6 +292,10 @@ body {
     height: 6%;
   }
 
+  .hardware {
+    height: 5%;
+  }
+
   .software {
     height: 10%;
   }
@@ -317,6 +346,10 @@ body {
     height: 6%;
   }
 
+  .hardware {
+    height: 5%;
+  }
+
   .software {
     height: 10%;
   }
@@ -364,7 +397,11 @@ body {
   }
 
   .opensource {
-    height: 6%;
+    height: 4.5%;
+  }
+
+  .hardware {
+    height: 5%;
   }
 
   .software {
