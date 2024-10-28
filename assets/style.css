@@ -179,29 +179,30 @@ a {
   }
 
   ul>li {
-    line-height: 1em;
+    line-height: 2em;
   }
 
   .logo a img {
-    width: 105px;
+    width: 130px;
   }
 
   .title {
-    font-size: 0.5em;
+    font-size: 0.3em;
   }
 
   .body {
-    font-size: 0.4em;
-    line-height: 1.4em;
+    font-size: 0.2em;
+    line-height: 2em;
     font-family: 'Arial';
   }
 
   .why {
     height: 11.5%;
+    padding: 5% 0% 0% 5%;
   }
 
   .how {
-    height: 10%;
+    height: 11%;
   }
 
   .secure {
@@ -209,7 +210,7 @@ a {
   }
 
   .monitoring {
-    height: 8%;
+    height: 10%;
   }
 
   .opensource {
@@ -217,7 +218,7 @@ a {
   }
 
   .hardware {
-    height: 4.5%;
+    height: 6%;
   }
 
   .software {
@@ -234,20 +235,45 @@ a {
 
   html,
   body {
-    height: 255vh;
+    height: 274vh;
+  }
+
+  ul>li {
+    line-height: 1em;
   }
 
   .logo a img {
-    width: 300px;
+    width: 245px;
   }
 
   .title {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
 
   .body {
-    font-size: 0.9em;
+    font-size: 0.7em;
     line-height: 1em;
+  }
+
+  .why {
+    padding: 4% 0% 0% 5%;
+    height: 12%;
+  }
+
+  .monitoring {
+    height: 11%;
+  }
+
+  .opensource {
+    height: 5%;
+  }
+
+  .hardware {
+    height: 5%;
+  }
+
+  .software {
+    height: 8%;
   }
 }
 
@@ -256,11 +282,11 @@ a {
 
   html,
   body {
-    height: 330vh;
+    height: 355vh;
   }
 
   .logo a img {
-    width: 300px;
+    width: 315px;
   }
 
   .title {
@@ -272,32 +298,20 @@ a {
     line-height: 1em;
   }
 
-  .why {
-    height: 11%;
-  }
+  /* .why {
+    height: 1%;
+  } */
 
   .how {
     height: 11%;
-  }
-
-  .secure {
-    height: 6%;
   }
 
   .monitoring {
     height: 12%;
   }
 
-  .opensource {
-    height: 6%;
-  }
-
   .hardware {
     height: 5%;
-  }
-
-  .software {
-    height: 10%;
   }
 
   .contact {
@@ -327,11 +341,11 @@ a {
   }
 
   .why {
-    height: 12%;
+    height: 9%;
   }
 
   .how {
-    height: 11%;
+    height: 8%;
   }
 
   .secure {
@@ -339,11 +353,11 @@ a {
   }
 
   .monitoring {
-    height: 11%;
+    height: 8%;
   }
 
   .opensource {
-    height: 6%;
+    height: 4%;
   }
 
   .hardware {
@@ -351,11 +365,12 @@ a {
   }
 
   .software {
-    height: 10%;
+    padding: 4% 0% 0% 5%;
+    height: 5%;
   }
 
   .contact {
-    height: 11%;
+    height: 8%;
   }
 }
 
@@ -364,11 +379,11 @@ a {
 
   html,
   body {
-    height: 595vh;
+    height: 650vh;
   }
 
   .logo a img {
-    width: 550px;
+    width: 590px;
   }
 
   .title {
@@ -381,7 +396,7 @@ a {
   }
 
   .why {
-    height: 11%;
+    height: 12%;
   }
 
   .how {
@@ -393,7 +408,7 @@ a {
   }
 
   .monitoring {
-    height: 11%;
+    height: 12%;
   }
 
   .opensource {
@@ -401,7 +416,7 @@ a {
   }
 
   .hardware {
-    height: 5%;
+    height: 6%;
   }
 
   .software {
