@@ -56,7 +56,7 @@ a {
     margin: 0 auto;
 
     img {
-      width: 420px;
+      width: 420p x;
     }
   }
 }
@@ -328,7 +328,7 @@ a {
   }
 
   .logo a img {
-    width: 400px;
+    width: 450px;
   }
 
   .title {
@@ -341,19 +341,19 @@ a {
   }
 
   .why {
-    height: 9%;
+    height: 12%;
   }
 
   .how {
-    height: 8%;
+    height: 11%;
   }
 
   .secure {
-    height: 6%;
+    height: 7%;
   }
 
   .monitoring {
-    height: 8%;
+    height: 12%;
   }
 
   .opensource {
@@ -366,11 +366,11 @@ a {
 
   .software {
     padding: 4% 0% 0% 5%;
-    height: 5%;
+    height: 7%;
   }
 
   .contact {
-    height: 8%;
+    height: 9%;
   }
 }
 
@@ -383,7 +383,7 @@ a {
   }
 
   .logo a img {
-    width: 590px;
+    width: 650px;
   }
 
   .title {
@@ -396,7 +396,7 @@ a {
   }
 
   .why {
-    height: 12%;
+    height: 11%;
   }
 
   .how {
@@ -408,7 +408,7 @@ a {
   }
 
   .monitoring {
-    height: 12%;
+    height: 9%;
   }
 
   .opensource {
@@ -416,14 +416,14 @@ a {
   }
 
   .hardware {
-    height: 6%;
+    height: 5%;
   }
 
   .software {
-    height: 8%;
+    height: 5%;
   }
 
   .contact {
-    height: 11%;
+    height: 9%;
   }
 }
