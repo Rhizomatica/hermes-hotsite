@@ -223,6 +223,7 @@ a {
 
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width:768px) {
+
   html,
   body {
     height: 175vh;
@@ -236,7 +237,7 @@ a {
   .logo a img {
     width: 230px;
   }
-    
+
   .title {
     font-size: 1.1em;
   }
@@ -281,6 +282,7 @@ a {
 
 /* Medium devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
   html,
   body {
     height: 245vh;
@@ -339,9 +341,10 @@ a {
 
 /* Large Devices ----------- */
 @media only screen and (min-width : 1200px) {
+
   html,
   body {
-    height: 300vh;
+    height: 570vh;
   }
 
   ul>li {
@@ -451,5 +454,20 @@ a {
 
   .contact {
     padding: 10% 0% 0% 0%;
+  }
+}
+
+/* FIREFOX */
+@-moz-document url-prefix() {
+  @media (min-width: 1200px) {
+
+    html,
+    body {
+      height: 350vh;
+    }
+
+    .logo a img {
+      width: 450px;
+    }
   }
 }
