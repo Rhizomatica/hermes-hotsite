@@ -15,7 +15,12 @@
 
 html,
 body {
-  height: 575vh;
+  height: 500vh;
+
+  /* margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column; */
 
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -29,6 +34,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: scroll;
+  background-position: center;
 }
 
 a {
@@ -38,36 +44,34 @@ a {
 
 .title {
   font-family: 'BricolageGrotesque';
-  font-size: 2.8em;
+  font-size: 2em;
   font-weight: bold;
 }
 
 .body {
   font-family: 'Fira';
-  font-size: 1.5em;
-  line-height: 1.4em;
+  font-size: 1.2em;
+  line-height: 1.2em;
   flex-direction: row;
 }
 
 .logo {
   display: flex;
+}
 
-  a {
-    margin: 0 auto;
+.logo a {
+  margin: 0 auto;
+}
 
-    img {
-      width: 420p x;
-    }
-  }
+.logo a img {
+  width: 60vh;
 }
 
 .why {
 
   display: flex;
   flex-direction: column;
-  padding: 7% 0% 0% 5%;
-  height: 11%;
-  /* border: solid rebeccapurple 20px; */
+  padding: 5% 0% 0% 9%;
 
   .body {
     width: 40%;
@@ -77,9 +81,7 @@ a {
 .how {
   display: flex;
   flex-direction: column;
-  padding: 7% 0% 0% 5%;
-  height: 11%;
-  /* border: solid rebeccapurple 20px; */
+  padding: 25% 0% 0% 9%;
 
   .body {
     width: 40%;
@@ -89,9 +91,7 @@ a {
 .secure {
   display: flex;
   flex-direction: column;
-  padding: 7% 0% 0% 5%;
-  height: 6%;
-  /* border: solid rebeccapurple 20px; */
+  padding: 25% 0% 0% 9%;
 
   .body {
     width: 40%;
@@ -101,17 +101,15 @@ a {
 .monitoring {
   display: flex;
   flex-direction: column;
-  padding: 7% 5% 0% 0%;
-  height: 11%;
+  padding: 10% 11% 0% 0%;
   align-items: end;
-  /* border: solid rebeccapurple 20px; */
 
   .title {
     text-align: right;
   }
 
   .body {
-    width: 45%;
+    width: 40%;
     text-align: right;
   }
 }
@@ -119,52 +117,45 @@ a {
 .opensource {
   display: flex;
   flex-direction: column;
-  padding: 7% 0% 0% 5%;
-  height: 5%;
+  padding: 25% 0% 0% 9%;
   /* border: solid rebeccapurple 20px; */
 
   .body {
-    width: 50%;
-  }
-}
-
-.software {
-  display: flex;
-  flex-direction: column;
-  padding: 8% 0% 0% 5%;
-  height: 5%;
-  /* border: solid rebeccapurple 20px; */
-
-  .body {
-    width: 50%;
+    width: 40%;
   }
 }
 
 .hardware {
   display: flex;
   flex-direction: column;
-  padding: 0% 0% 0% 5%;
-  height: 7%;
-  /* border: solid rebeccapurple 20px; */
+  padding: 3% 0% 0% 9%;
 
   .body {
-    width: 50%;
+    width: 40%;
+  }
+}
+
+.software {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 0% 0% 9%;
+
+  .body {
+    width: 40%;
   }
 }
 
 .contact {
   display: flex;
   flex-direction: column;
-  padding: 7% 0% 0% 5%;
-  height: 12%;
-  /* border: solid rebeccapurple 20px; */
+  padding: 3% 0% 0% 0%;
 
   .title {
     text-align: center;
   }
 
   .body {
-    width: 30%;
+    width: 25%;
     text-align: center;
     margin: auto;
   }
@@ -175,11 +166,12 @@ a {
 
   html,
   body {
-    height: 138vh;
+    height: 115vh;
   }
 
   ul>li {
     line-height: 2em;
+    margin-left: -25px;
   }
 
   .logo a img {
@@ -197,57 +189,56 @@ a {
   }
 
   .why {
-    height: 11.5%;
-    padding: 5% 0% 0% 5%;
+    padding: 4% 0% 0% 7%;
   }
 
   .how {
-    height: 11%;
+    padding: 7% 0% 0% 7%;
   }
 
   .secure {
-    height: 7%;
+    padding: 25% 0% 0% 7%;
   }
 
   .monitoring {
-    height: 10%;
+    padding: 13% 7% 0% 0%;
   }
 
   .opensource {
-    height: 4%;
+    padding: 26% 0% 0% 7%;
   }
 
   .hardware {
-    height: 6%;
+    padding: 2% 0% 0% 7%;
   }
 
   .software {
-    height: 6%;
+    padding: 2% 0% 0% 7%;
   }
 
   .contact {
-    height: 9%;
+    padding: 3% 0% 0% 0%;
   }
 }
 
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width:768px) {
-
   html,
   body {
-    height: 274vh;
+    height: 175vh;
   }
 
   ul>li {
     line-height: 1em;
+    margin-left: -25px;
   }
 
   .logo a img {
-    width: 245px;
+    width: 230px;
   }
-
+    
   .title {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 
   .body {
@@ -256,37 +247,52 @@ a {
   }
 
   .why {
-    padding: 4% 0% 0% 5%;
-    height: 12%;
+    padding: 4% 0% 0% 7%;
+  }
+
+  .how {
+    padding: 7% 0% 0% 7%;
+  }
+
+  .secure {
+    padding: 25% 0% 0% 7%;
   }
 
   .monitoring {
-    height: 11%;
+    padding: 13% 9% 0% 0%;
   }
 
   .opensource {
-    height: 5%;
+    padding: 22% 0% 0% 7%;
   }
 
   .hardware {
-    height: 5%;
+    padding: 2% 0% 0% 7%;
   }
 
   .software {
-    height: 8%;
+    padding: 2% 0% 0% 7%;
+  }
+
+  .contact {
+    padding: 3% 0% 0% 0%;
   }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
   html,
   body {
-    height: 355vh;
+    height: 245vh;
+  }
+
+  ul>li {
+    line-height: 1em;
+    margin-left: -25px;
   }
 
   .logo a img {
-    width: 315px;
+    width: 320px;
   }
 
   .title {
@@ -298,37 +304,53 @@ a {
     line-height: 1em;
   }
 
-  /* .why {
-    height: 1%;
-  } */
+  .why {
+    padding: 5% 0% 0% 5%;
+  }
 
   .how {
-    height: 11%;
+    padding: 27% 0% 0% 5%;
+  }
+
+  .secure {
+    padding: 26% 0% 0% 5%;
   }
 
   .monitoring {
-    height: 12%;
+    padding: 13% 6% 0% 0%;
+  }
+
+  .opensource {
+    padding: 30% 0% 0% 5%;
   }
 
   .hardware {
-    height: 5%;
+    padding: 2% 0% 0% 5%;
+  }
+
+  .software {
+    padding: 2% 0% 0% 5%;
   }
 
   .contact {
-    height: 10%;
+    padding: 5% 0% 0% 0%;
   }
 }
 
 /* Large Devices ----------- */
 @media only screen and (min-width : 1200px) {
-
   html,
   body {
-    height: 575vh;
+    height: 300vh;
+  }
+
+  ul>li {
+    line-height: 1em;
+    margin-left: -25px;
   }
 
   .logo a img {
-    width: 450px;
+    width: 380px;
   }
 
   .title {
@@ -341,36 +363,35 @@ a {
   }
 
   .why {
-    height: 12%;
+    padding: 5% 0% 0% 5%;
   }
 
   .how {
-    height: 11%;
+    padding: 27% 0% 0% 5%;
   }
 
   .secure {
-    height: 7%;
+    padding: 26% 0% 0% 5%;
   }
 
   .monitoring {
-    height: 12%;
+    padding: 13% 6% 0% 0%;
   }
 
   .opensource {
-    height: 4%;
+    padding: 25% 0% 0% 5%;
   }
 
   .hardware {
-    height: 5%;
+    padding: 2% 0% 0% 5%;
   }
 
   .software {
-    padding: 4% 0% 0% 5%;
-    height: 7%;
+    padding: 2% 0% 0% 5%;
   }
 
   .contact {
-    height: 9%;
+    padding: 5% 0% 0% 0%;
   }
 }
 
@@ -379,11 +400,16 @@ a {
 
   html,
   body {
-    height: 650vh;
+    height: 550vh;
+  }
+
+  ul>li {
+    line-height: 1em;
+    margin-left: -25px;
   }
 
   .logo a img {
-    width: 650px;
+    width: 550px;
   }
 
   .title {
@@ -396,34 +422,34 @@ a {
   }
 
   .why {
-    height: 11%;
+    padding: 7% 0% 0% 5%;
   }
 
   .how {
-    height: 11%;
+    padding: 27% 0% 0% 5%;
   }
 
   .secure {
-    height: 6%;
+    padding: 26% 0% 0% 5%;
   }
 
   .monitoring {
-    height: 9%;
+    padding: 13% 6% 0% 0%;
   }
 
   .opensource {
-    height: 4.5%;
+    padding: 28% 0% 0% 5%;
   }
 
   .hardware {
-    height: 5%;
+    padding: 2% 0% 0% 5%;
   }
 
   .software {
-    height: 5%;
+    padding: 2% 0% 0% 5%;
   }
 
   .contact {
-    height: 9%;
+    padding: 10% 0% 0% 0%;
   }
 }
