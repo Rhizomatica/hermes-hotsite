@@ -459,15 +459,329 @@ a {
 
 /* FIREFOX */
 @-moz-document url-prefix() {
+  @media (min-width: 319px) {
+
+    html,
+    body {
+      height: 89vh;
+    }
+
+    .logo a img {
+      width: 100px;
+    }
+
+    .why {
+      padding: 5% 0% 0% 5%;
+      width: 40%;
+    }
+
+    .how {
+      padding: 30% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .secure {
+      padding: 30% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .monitoring {
+      padding: 13% 6% 0% 0%;
+      width: 40%;
+      float: right;
+      text-align: right;
+
+    }
+
+    .opensource {
+      padding: 52% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .hardware {
+      padding: 2% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .software {
+      padding: 2% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .contact {
+      padding: 10% 35% 0% 35%;
+      /* width: 50%; */
+      text-align: center;
+    }
+
+    /* OPERA */
+    
+  }
+
+  @media (min-width: 768px) {
+
+    html,
+    body {
+      height: 220vh;
+    }
+
+    .logo a img {
+      width: 260px;
+    }
+
+    .why {
+      padding: 3% 0% 0% 5%;
+      width: 40%;
+    }
+
+    .how {
+      padding: 30% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .secure {
+      padding: 30% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .monitoring {
+      padding: 13% 6% 0% 0%;
+      width: 40%;
+      float: right;
+      text-align: right;
+
+    }
+
+    .opensource {
+      padding: 52% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .hardware {
+      padding: 2% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .software {
+      padding: 2% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .contact {
+      padding: 10% 35% 0% 35%;
+      /* width: 50%; */
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 992px) {
+
+    html,
+    body {
+      height: 285vh;
+    }
+
+    .logo a img {
+      width: 350px;
+    }
+
+    .why {
+      padding: 3% 0% 0% 5%;
+      width: 40%;
+    }
+
+    .how {
+      padding: 30% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .secure {
+      padding: 26% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .monitoring {
+      padding: 13% 6% 0% 0%;
+      width: 40%;
+      float: right;
+      text-align: right;
+
+    }
+
+    .opensource {
+      padding: 55% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .hardware {
+      padding: 2% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .software {
+      padding: 2% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .contact {
+      padding: 10% 35% 0% 35%;
+      /* width: 50%; */
+      text-align: center;
+    }
+  }
+
   @media (min-width: 1200px) {
 
     html,
     body {
-      height: 350vh;
+      height: 550vh;
     }
 
     .logo a img {
-      width: 450px;
+      width: 550px;
+    }
+
+    .title {
+      font-size: 2.4em;
+    }
+
+    .body {
+      font-size: 1.6em;
+      line-height: 1.5;
+    }
+
+    .why {
+      padding: 7% 0% 0% 5%;
+      width: 40%;
+    }
+
+    .how {
+      padding: 27% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .secure {
+      padding: 26% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .monitoring {
+      padding: 13% 6% 0% 0%;
+      width: 40%;
+      float: right;
+      text-align: right;
+
+    }
+
+    .opensource {
+      padding: 55% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .hardware {
+      padding: 2% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .software {
+      padding: 2% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .contact {
+      padding: 10% 35% 0% 35%;
+      /* width: 50%; */
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 1800px) {
+
+    html,
+    body {
+      height: 520vh;
+    }
+
+    .logo a img {
+      width: 650px;
+    }
+
+    .title {
+      font-size: 2.4em;
+    }
+
+    .body {
+      font-size: 1.6em;
+      line-height: 1.5;
+    }
+
+    .why {
+      padding: 3% 0% 0% 5%;
+      width: 40%;
+    }
+
+    .how {
+      padding: 27% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .secure {
+      padding: 26% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .monitoring {
+      padding: 13% 6% 0% 0%;
+      width: 40%;
+      float: right;
+      text-align: right;
+
+    }
+
+    .opensource {
+      padding: 55% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .hardware {
+      padding: 2% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .software {
+      padding: 2% 0% 0% 5%;
+      width: 40%;
+
+    }
+
+    .contact {
+      padding: 10% 35% 0% 35%;
+      /* width: 50%; */
+      text-align: center;
     }
   }
 }
