@@ -8,7 +8,6 @@
   src: url("./fonts/woff2/FiraSans-Regular.woff2") format("woff")
 }
 
-
 html {
   font-family: Fira;
   font-family: BricolageGrotesque;
@@ -17,9 +16,97 @@ html {
   flex-direction: row;
 }
 
-.index {
+
+.container {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /* width: 50%; */
+  margin:0 auto;
+  width: 1980px;
+}
+
+.index {
+  width: 90%;
+  height: 90%;
+
+  svg {
+    width: 500.93634mm;
+    height: 1175.9244mm;
+  }
+}
+
+@media only screen and (min-width:319px) {
+
+  .container {
+    svg {
+      width: 310mm;
+      height: 850.9244mm;
+    }
+  }
+
+  .index {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+@media only screen and (min-width:768px) {
+  
+  .container {
+    svg {
+      width: 480mm;
+      height: 975.9244mm;
+    }
+  }
+
+  .index {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+
+@media only screen and (min-width:980px) {
+
+  .container {
+    svg {
+      width: 350mm;
+      height: 675.9244mm;
+    }
+  }
+
+  .index {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+
+  .container {
+
+    svg {
+      width: 500mm;
+      height: 975.9244mm;
+    }
+  }
+
+  .index {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+@media only screen and (min-width:1800px) {
+
+  .container {
+
+    svg {
+      width: 500mm;
+      height: 1175mm;
+    }
+  }
+
+  .index {
+    width: 90%;
+    height: 90%;
+  }
 }
