@@ -161,6 +161,8 @@ a {
   }
 }
 
+
+
 /* Extra Small devices (mobile, 320px and up) */
 @media only screen and (min-width:319px) {
 
@@ -387,7 +389,7 @@ a {
     padding: 27% 0% 0% 5%;
   }
 
-  .webkit .how{
+  .webkit .how {
     padding: 30% 0% 0% 5%;
   }
 
@@ -419,7 +421,7 @@ a {
     padding: 5% 0% 0% 0%;
   }
 
-  .webkit .contact{
+  .webkit .contact {
     padding: 15% 0% 0% 0%;
   }
 }
@@ -830,32 +832,52 @@ a {
 .ie .example {
   background-color: yellow
 }
+
 .ie7 .example {
   background-color: orange
 }
+
 .gecko .example {
   background-color: gray
 }
+
 .win.gecko .example {
   background-color: red
 }
+
 .linux.gecko .example {
   background-color: pink
 }
+
 .opera .example {
   background-color: green
 }
+
 .konqueror .example {
   background-color: blue
 }
+
 .webkit .example {
   background-color: black
 }
+
 .example {
   width: 100px;
   height: 100px;
 }
-.no_js { display: block }
-.has_js { display: none }
-.js .no_js { display: none }
-.js .has_js { display: block }
+
+.no_js {
+  display: block
+}
+
+.has_js {
+  display: none
+}
+
+.js .no_js {
+  display: none
+}
+
+.js .has_js {
+  display: block
+}

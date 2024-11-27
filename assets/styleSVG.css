@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "BricolageGrotesque";
+  src: url("./fonts/woff2/BricolageGrotesque12ptCondensed-Regular.woff2") format("woff")
+}
+
+@font-face {
+  font-family: "Fira";
+  src: url("./fonts/woff2/FiraSans-Regular.woff2") format("woff")
+}
+
+
+html {
+  font-family: Fira;
+  font-family: BricolageGrotesque;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  flex-direction: row;
+}
+
+.index {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
