@@ -16,9 +16,6 @@ Production official hotsite URL [https://hermes.radio/](https://hermes.radio/)
  - 3. Copy the `index.svg` file content and paste it in the `index.html` file `<link>` HTML tag (`DATA URI SCHEME`).
 
 > [!TIP]
-
 > Use the `<object>` tag to import an SVG file and then make a quick test.
-
 > If any content are mispositioned you can try to close the `</tspan>` at the same line as the text.
-
 > Avoid indentation of the SVG content in the `index.html`, it may cause inconsistency in the SVG layout.
