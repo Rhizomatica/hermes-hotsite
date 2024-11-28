@@ -17,5 +17,9 @@ Production official hotsite URL [https://hermes.radio/](https://hermes.radio/)
 
 > [!TIP]
 > Use the `<object>` tag to import an SVG file and then make a quick test.
+
+> [!TIP]
 > If any content are mispositioned you can try to close the `</tspan>` at the same line as the text.
+
+> [!TIP]
 > Avoid indentation of the SVG content in the `index.html`, it may cause inconsistency in the SVG layout.
