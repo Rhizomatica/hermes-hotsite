@@ -551,7 +551,7 @@
 </tspan><tspan
          x="889.69141"
          y="1008.606"
-         id="tspan18203">Measures 25cm x 15cm x 5cm and weights about </tspan><tspan
+         id="tspan18203">Measures 25cm x 15cm x 5cm and weighs about </tspan><tspan
          x="889.69141"
          y="1040.7954"
          id="tspan18205">2Kgs. About the size of a hardcover book.</tspan></text>
@@ -802,7 +802,7 @@
     </a>
     <a
        id="a14536-8-3"
-       xlink:href=""
+       xlink:href="https://lists.riseup.net/www/info/hermes-general"
        transform="matrix(0.26458333,0,0,0.26458333,-66.839902,-43.606309)">
       <text
          xml:space="preserve"
@@ -811,15 +811,11 @@
          style="font-size:29.2631px;white-space:pre;shape-inside:url(#rect559-6-9-1-0-6-4);display:inline;fill:#000000"
          x="1588.4877"
          y="0"><tspan
-           x="889.69141"
-           y="785.47497"
-           id="tspan18271">Join the HERMES mailing list for updates
-</tspan><tspan
-           x="889.69141"
-           y="822.05383"
-           id="tspan18275"><tspan
-             style="fill:#ff6600"
-             id="tspan18273">MAIL LIST</tspan></tspan></text>
+               x="889.69141"
+               y="785.47497"
+               id="tspan18271"><tspan
+               style="fill:#ff6600"
+               id="tspan18267">Join</tspan> the HERMES mailing list for updates </tspan></text>
     </a>
   </g>
 </svg>
