@@ -3,17 +3,16 @@
 This project is a friendly Hotsite for [HERMES (High-frequency Emergency and Rural Multimedia Exchange System)](https://github.com/Rhizomatica/hermes-gui) disclosure and presentantion. 
 
 Developed by 
-[Rhizomatica](https://www.rhizomatica.org/) 
-[Matheus Thibau Paulino](https://github.com/mtsthibau)
+[Rhizomatica](https://www.rhizomatica.org/) & [Matheus Thibau Paulino](https://github.com/mtsthibau)
 
 Production official hotsite URL [https://hermes.radio/](https://hermes.radio/)
 
 
 # UPDATING HERMES HOTSITE
 
- - 1. Update the `index.svg` file (e.g., Inkscape/Adobe Illustrator).
- - 2. Open the `index.html`.
- - 3. Copy the `index.svg` file content and paste it in the `index.html` file `<link>` HTML tag (`DATA URI SCHEME`).
+ 1. Update the `index.svg` file (e.g., Inkscape/Adobe Illustrator).
+ 2. Open the `index.html`.
+ 3. Copy the `index.svg` file content and paste it in the `index.html` file `<link>` HTML tag (`DATA URI SCHEME`).
 
 > [!TIP]
 > Use the `<object>` tag to import an SVG file and then make a quick test.
