@@ -1,11 +1,11 @@
 @font-face {
   font-family: "BricolageGrotesque";
-  src: url("./fonts/woff2/BricolageGrotesque12ptCondensed-Regular.woff2") format("woff")
+  src: url("../fonts/woff2/BricolageGrotesque12ptCondensed-Regular.woff2") format("woff")
 }
 
 @font-face {
   font-family: "Fira";
-  src: url("./fonts/woff2/FiraSans-Regular.woff2") format("woff")
+  src: url("../fonts/woff2/FiraSans-Regular.woff2") format("woff")
 }
 
 html {
