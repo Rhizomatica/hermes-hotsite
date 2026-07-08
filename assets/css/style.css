@@ -14,16 +14,93 @@ html {
   font-size: 1.2em;
   line-height: 1.2em;
   flex-direction: row;
-  background-color:#fff6c0 
+  background-color: #fff6c0
 }
 
 .container {
   display: block;
-  margin:0 auto;
+  margin: 0 auto;
   max-width: 90%;
 }
 
 .index {
   width: 90%;
   height: 90%;
+}
+
+#navbar {
+  padding: 0 6%;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #96B863;
+  border-radius: 3px;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 22px 16px;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #111111;
+}
+
+ul li a.active {
+  background-color: #5e743e;
+}
+
+.rightli {
+  float: right;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.donate {
+  background-color: #cd97bd;
+  color: white;
+  padding: 10px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 16px;
+  margin: 11px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.donate:hover {
+  background-color: #a17895;
+  color: white;
+}
+
+.donate-text {
+  padding-right: 0.5rem;
+  font-size: 1rem;
+}
+
+.heart {
+  width: 1.8rem;
+  height: 1.2rem;
+  padding-right: 0.5rem;
+}
+
+.donate-span {
+  color: white;
+  text-align: center;
 }
